@@ -1,0 +1,9 @@
+<launch>    
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>    
+	<node pkg="turtlesim_circle" type="circle.py" name="circle">        
+		<param name="speed" value="1"/>        
+		<param name="angle" value="10"/>        
+		<param name="time" value="5"/>
+		<param name="clockwise" value="0"/>
+	</node>
+</launch>
